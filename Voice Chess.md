@@ -1,5 +1,11 @@
 **Problem Statement:** To design a voice commanded chess game with automatic movements according to voice commands.
 
+**Constraints:**
+* Easy voice interaction with the microcontroller.
+* Smooth movement of pieces without any collisions/interactions with other pieces.
+* Motors to be compatible with microcontroller.
+* Power requirements and cost-effectiveness
+
 **Ideating Solution:**
 
 Steps needed: Voice => conversion to text => Arduino => motors => moving pieces => repeat
@@ -19,6 +25,6 @@ So, after seeing the advantages and disadvantages of the proposed solutions, we 
 * **Piece Identification:** We can have a mechanical method of locking peices to their houses and enable their movement when the motors reach out (from below the chessboard) and unlock it from its house. This shall be controlled mainly by the Arduino.
 * **Moving pieces:** Paths to be made in between houses for the movement of pieces with help of stepper motors. This will help faster and smoother movement without interactions/clashing with other pieces.
 
-The initial approach (as per an instructable) is sumaarised here: [Voice Chess](https://github.com/prateekagrawalgithub/Electronics-club-Mini-Task-1/blob/master/Entertainment/Voice%20Chess.md)
+The initial approach (as per an instructable) is summarised here: [Voice Chess](https://github.com/prateekagrawalgithub/Electronics-club-Mini-Task-1/blob/master/Entertainment/Voice%20Chess.md)
 
-*As some electronic components are eliminated and easy to use devices are introduced along with mechanical components/mechnisms, the cost involved, accuracy, power requirement has considerably reduced along with the implementation being easier and smoother!*
+*As some electronic components are eliminated and easy to use devices are introduced along with mechanical components/mechnisms, the cost involved, accuracy, power requirements have considerably reduced along with the implementation being easier and smoother!*
